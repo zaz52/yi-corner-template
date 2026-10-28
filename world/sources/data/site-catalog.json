@@ -1,0 +1,65 @@
+[
+  {
+    "id": "shop",
+    "title": "我的小店",
+    "url": "https://example.com/shop",
+    "description": "示例：你的小店或服务入口，换成自己的链接。",
+    "category": "我的作品",
+    "mine": true,
+    "source": "示例"
+  },
+  {
+    "id": "cinema",
+    "title": "我的影院",
+    "url": "https://example.com/cinema",
+    "description": "示例：你的影院、视频或作品展示页，换成自己的链接。",
+    "category": "我的作品",
+    "mine": true,
+    "source": "示例"
+  },
+  {
+    "id": "blog",
+    "title": "我的博客",
+    "url": "https://example.com/blog",
+    "description": "示例：你的博客或文章主页，换成自己的链接。",
+    "category": "我的作品",
+    "mine": true,
+    "source": "示例"
+  },
+  {
+    "id": "coffee",
+    "title": "请我喝咖啡",
+    "url": "https://example.com/coffee",
+    "description": "示例：你的打赏、赞助链接，换成自己的链接。",
+    "category": "我的作品",
+    "mine": true,
+    "source": "示例"
+  },
+  {
+    "id": "tools",
+    "title": "工具导航",
+    "url": "https://example.com/tools",
+    "description": "示例：你收藏的效率工具合集，换成自己的链接。",
+    "category": "AI 效率",
+    "mine": false,
+    "source": "示例"
+  },
+  {
+    "id": "reading",
+    "title": "读书笔记",
+    "url": "https://example.com/reading",
+    "description": "示例：你的读书、写作内容入口，换成自己的链接。",
+    "category": "内容创作",
+    "mine": false,
+    "source": "示例"
+  },
+  {
+    "id": "video",
+    "title": "音乐电台",
+    "url": "https://example.com/radio",
+    "description": "示例：你喜欢的音乐、电台入口，换成自己的链接。",
+    "category": "影音娱乐",
+    "mine": false,
+    "source": "示例"
+  }
+]

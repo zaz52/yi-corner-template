@@ -1,0 +1,20 @@
+[
+  {
+    "href": "https://github.com/your-name",
+    "icon": "github",
+    "label": "GitHub",
+    "value": "github.com/your-name"
+  },
+  {
+    "href": "https://x.com/your-name",
+    "icon": "sparkles",
+    "label": "X",
+    "value": "@your-name"
+  },
+  {
+    "href": "https://t.me/your-name",
+    "icon": "send",
+    "label": "Telegram",
+    "value": "@your-name"
+  }
+]

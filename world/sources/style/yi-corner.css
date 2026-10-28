@@ -1,0 +1,25 @@
+.yi-hud{position:fixed;inset:0;pointer-events:none;z-index:8;color:#fff3e4;font-family:Nunito,system-ui,sans-serif;opacity:0;transition:opacity 1s}
+.yi-directory-page{margin:0;min-height:100vh;background:#4c2d58;color:#fff0de;font-family:system-ui,sans-serif}.yi-directory-page header{padding:32px}.yi-directory-page header a{color:#ffc18b}.yi-directory-page header button{padding:12px 20px;border-radius:8px;border:1px solid #df9f92;background:#77445e;color:white;font:inherit}
+.is-started.yi-ready .yi-hud{opacity:1}
+.yi-brand{position:absolute;left:32px;top:25px;font-family:'Amatic SC',sans-serif;font-size:44px;letter-spacing:4px;text-shadow:0 2px 15px #4c1d50}
+.yi-brand small{display:block;font:13px system-ui;letter-spacing:5px;margin-top:3px}
+.yi-hud nav{position:absolute;right:78px;top:24px;display:flex;gap:8px;pointer-events:auto}
+.yi-hud button,.yi-dialog button,.yi-dialog a{font:inherit;cursor:pointer;border:1px solid #ffd3a84d;border-radius:8px;background:#48203acc;color:#fff3e4;padding:11px 17px;text-decoration:none;backdrop-filter:blur(8px)}
+.yi-hud button:hover,.yi-dialog a:hover{background:#934f62}
+.yi-guide{position:absolute;bottom:28px;left:30px;font-size:12px;text-shadow:0 2px 6px #2b123d}
+.yi-credit{position:absolute;bottom:8px;left:30px;font-size:10px;opacity:.65}
+.yi-nearby{pointer-events:auto;position:absolute;bottom:76px;left:50%;transform:translateX(-50%)}
+.yi-dialog{width:min(430px,85vw);background:#4e2d4f;color:#ffeedf;border:1px solid #cf8b89;border-radius:16px;padding:36px;box-shadow:0 20px 100px #1c102b80;font-family:system-ui,sans-serif}
+.yi-dialog::backdrop{background:#23102c66;backdrop-filter:blur(5px)}
+.yi-dialog h2{font-size:26px;margin:0 0 20px}.yi-dialog p{line-height:1.8;margin-bottom:30px;color:#efcccb}.yi-dialog .yi-close{position:absolute;right:8px;top:6px;border:0;background:transparent;font-size:25px;padding:2px 10px}.yi-back{margin-left:8px}
+[hidden]{display:none!important}
+.yi-directory{width:min(900px,90vw);max-height:85vh;overflow:auto;box-sizing:border-box}.yi-search-label{display:grid;gap:8px;font-size:13px}.yi-directory input{font:inherit;color:#fff3e4;background:#301e36;border:1px solid #b8828d;border-radius:8px;padding:13px}.yi-directory input::placeholder{color:#cfb8ca}.yi-categories{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0}.yi-categories button{font-size:12px;padding:8px 12px}.yi-categories button[aria-pressed=true]{background:#cf8b89;color:#29172f}.yi-count{font-size:12px;color:#e6c6c0;margin:12px 0}.yi-site-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}.yi-site-card{padding:20px;border:1px solid #b8828d66;border-radius:12px;background:#37223c}.yi-site-card small{color:#e5b090}.yi-site-card h3{font-size:18px;line-height:1.5;margin:10px 0}.yi-site-card p{font-size:13px;margin:0 0 20px}.yi-site-card a{display:inline-block;font-size:13px}.yi-site-card span{font-size:13px;color:#c6a7bb}.yi-hud button:focus-visible,.yi-dialog :focus-visible{outline:3px solid #ffc36d;outline-offset:3px}.yi-brand{font-family:system-ui,sans-serif;font-weight:800}.menu .title,.modal .title{font-family:system-ui,sans-serif!important}.menu .text,.modal .text{font-family:system-ui,sans-serif!important}
+@media(max-width:700px){.yi-brand{top:16px;left:16px;font-size:30px}.yi-hud nav{top:88px;left:16px;right:auto;gap:5px}.yi-hud nav button{font-size:12px;padding:8px 11px}.yi-guide{left:16px;bottom:32px;font-size:10px}.yi-credit{left:16px;max-width:270px;font-size:9px}.yi-dialog{padding:26px}.yi-dialog a,.yi-dialog button{font-size:13px}}
+
+/* Keep native dialogs within narrow and landscape viewports. */
+.yi-dialog{box-sizing:border-box;max-height:85dvh;overflow:auto;overflow-wrap:anywhere}
+.yi-site-list{grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr))}
+.yi-directory input{min-width:0;width:100%;box-sizing:border-box}
+@media(max-width:700px){.yi-hud nav{right:16px;flex-wrap:wrap}.yi-dialog{width:calc(100vw - 24px);padding:24px 18px}.yi-back{display:inline-block;margin:12px 0 0}.yi-nearby{max-width:calc(100vw - 32px)}}
+
+.yi-credit a{pointer-events:auto;color:inherit;text-decoration:underline;padding:0;border:0;background:none}

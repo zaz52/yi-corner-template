@@ -1,0 +1,7 @@
+node_modules
+dist
+world/static/
+world/dist/
+.env
+.DS_Store
+*.log

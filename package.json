@@ -1,0 +1,10 @@
+{
+  "name": "yi-corner-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-world.mjs"
+  },
+  "description": "可玩的 3D 个人网站模板（构建与改法见 README）"
+}
